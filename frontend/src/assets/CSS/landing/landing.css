@@ -9,6 +9,7 @@
     top: 0px;
     background-color: rgb(54, 53, 53,0.4);
     width: 100vw;
+    z-index: 1;
 }
 /* Description Styling */
 .landingContent{
@@ -166,6 +167,16 @@
     .card{
         margin: 5px;
         width: 80vw;
+    }
+}
+@media screen and (max-width:754px) {
+    .cards{
+        padding: 0;
+    }
+    .card{
+        margin: 5px;
+        width: 50vw;
+        height: inherit;
     }
 }
 
